@@ -4,8 +4,17 @@
     "connector": "memory"
   },
   "Mongo": {
+    "url": "mongodb://techalien:tagdomongo@ds057234.mongolab.com:57234/tagdo",
+    "name": "Mongo",
     "defaultForType": "mongodb",
-   "connector": "loopback-connector-mongodb",
-   "url": "mongodb://techalien:tagdomongo@ds057234.mongolab.com:57234/tagdo"
+    "connector": "loopback-connector-mongodb"
+  },
+  "postgress": {
+    "host": "127.0.0.1",
+    "port": "5432",
+    "database": "tagdoapi",
+    "username": "adminsaip64a",
+    "password": "NLgB_5dtq5l3",
+    "connector": "postgresql"
   }
 }

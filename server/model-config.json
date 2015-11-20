@@ -32,8 +32,8 @@
     "dataSource": "db",
     "public": false
   },
-  "todo": {
-    "dataSource": "Mongo",
+  "Todo": {
+    "dataSource": "postgress",
     "public": true
   }
 }

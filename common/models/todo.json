@@ -1,26 +1,23 @@
 {
-  "name": "todo",
+  "name": "Todo",
+  "plural": "todo",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "todoLabel": {
+    "Label": {
       "type": "string",
       "required": false
     },
-    "todoBody": {
+    "Body": {
       "type": "string",
       "required": true
     },
     "id": {
       "type": "number",
-      "id": true,
-      "generated":true
-    },
-    "Date": {
-      "type": "date"
+      "id": true
     }
   },
   "validations": [],
