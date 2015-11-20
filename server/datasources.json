@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Mongo": {
+    "defaultForType": "mongodb",
+   "connector": "loopback-connector-mongodb",
+   "url": "mongodb://techalien:tagdomongo@ds057234.mongolab.com:57234/tagdo"
+  }
+}
