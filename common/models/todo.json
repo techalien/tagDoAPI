@@ -1,27 +1,15 @@
 {
   "name": "Todo",
-  "plural": "todo",
   "base": "PersistedModel",
-  "idInjection": false,
-  "options": {
-    "validateUpsert": true
-  },
+  "idInjection": true,
   "properties": {
-    "Label": {
-      "type": "string",
-      "required": false
-    },
-    "Body": {
+    "content": {
       "type": "string",
       "required": true
-    },
-    "id": {
-      "type": "number",
-      "id": true
     }
   },
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": []
 }
