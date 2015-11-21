@@ -4,10 +4,6 @@
   "description": "loopback-example-angular",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint .",
-    "postinstall": "bower install",
-    "start": "node .",
-    "test": "tape tests/**/*.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -26,6 +22,9 @@
     "jshint": "^2.5.6",
     "tape": "^4.2.0"
   },
+  "engines": {
+        "node": "0.12.x"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/strongloop/loopback-example-angular"
