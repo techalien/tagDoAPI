@@ -4,7 +4,6 @@
   "description": "loopback-example-angular",
   "main": "server/server.js",
   "scripts": {
-  	"postinstall": "./node_modules/bower/bin/bower install"
   },
   "dependencies": {
     "compression": "^1.0.3",
