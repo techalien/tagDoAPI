@@ -27,7 +27,7 @@
     "public": false
   },
   "Todo": {
-    "dataSource": "db",
+    "dataSource": "postgress",
     "public": true
   }
 }
