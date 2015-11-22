@@ -3,8 +3,9 @@
     "name": "db",
     "connector": "memory"
   },
-   "postgress": {
-    "url":"postgres://phazqfjtzbfbcw:vtnEpe5l_LuG95dRzoXSC8RRR1@ec2-54-83-202-64.compute-1.amazonaws.com:5432/dbe61qv7kgcoir?ssl=true",
+  "postgress": {
+    "url": "postgres://phazqfjtzbfbcw:vtnEpe5l_LuG95dRzoXSC8RRR1@ec2-54-83-202-64.compute-1.amazonaws.com:5432/dbe61qv7kgcoir?ssl=true",
+    "name": "postgress",
     "connector": "postgresql"
   }
 }

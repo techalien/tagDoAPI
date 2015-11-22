@@ -9,7 +9,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "belongs": {
+      "type": "belongsTo",
+      "model": "todoCreator",
+      "foreignKey": "uID"
+    }
+  },
   "acls": [],
-  "methods": []
+  "methods": {}
 }

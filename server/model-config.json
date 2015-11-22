@@ -8,25 +8,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "postgress"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "postgress",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "postgress",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "postgress",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "postgress",
     "public": false
   },
   "Todo": {
+    "dataSource": "postgress",
+    "public": true
+  },
+  "todoCreator": {
     "dataSource": "postgress",
     "public": true
   }

@@ -1,0 +1,30 @@
+{
+  "name": "todoCreator",
+  "plural": "creator",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "uID": {
+      "type": "number",
+      "id": true,
+      "generated": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "myTodo": {
+      "type": "hasMany",
+      "model": "Todo",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
