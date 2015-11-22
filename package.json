@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "loopback-example-angular",
   "main": "server/server.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "bower install"
+    },
   "dependencies": {
  "body-parser": "^1.9.0",
     "compression": "^1.0.3",
@@ -15,6 +17,7 @@
     "express-session": "^1.7.6",
     "loopback": "^2.14.0",
     "loopback-boot": "^2.6.5",
+    "jade": "^1.7.0",
     "loopback-connector-postgresql": "^2.4.0",
     "loopback-datasource-juggler": "^2.19.0",
     "serve-favicon": "^2.0.1",

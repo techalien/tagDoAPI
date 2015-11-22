@@ -8,11 +8,7 @@
       "./node_modules/loopback-component-passport/lib/models"
     ]
   },
-  "User": {
-    "dataSource": "postgress"
-  },
-  "AccessToken": {
-    "dataSource": "postgress",
+  
   "user": {
     "dataSource": "db",
     "public": true
