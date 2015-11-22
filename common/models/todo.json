@@ -12,8 +12,8 @@
   "relations": {
     "belongs": {
       "type": "belongsTo",
-      "model": "todoCreator",
-      "foreignKey": "uID"
+      "model": "User",
+      "foreignKey": "id"
     }
   },
   "acls": [],

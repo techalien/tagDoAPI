@@ -4,14 +4,32 @@
       "loopback/common/models",
       "loopback/server/models",
       "../common/models",
-      "./models"
+      "./models",
+"./node_modules/loopback-component-passport/lib/models"
     ]
   },
+<<<<<<< HEAD
   "User": {
     "dataSource": "postgress"
   },
   "AccessToken": {
     "dataSource": "postgress",
+=======
+"user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "accessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "userCredential": {
+    "dataSource": "db",
+    "public": false
+  },
+  "userIdentity": {
+    "dataSource": "db",
+>>>>>>> 4402cfcd74e469e51059acc6885c7c03c2bb3b9a
     "public": false
   },
   "ACL": {
