@@ -5,14 +5,14 @@
       ng-class="{'has-error': todoForm.content.$invalid
         && todoForm.content.$dirty}">
     <input type="text" class="form-control focus" name="content"
-        placeholder="Content" autocomplete="off" required
+        placeholder="I want to do... " autocomplete="off" required
         ng-model="newTodo.content">
     <span class="has-error control-label" ng-show="
         todoForm.content.$invalid && todoForm.content.$dirty">
-      Content is required.
+      Type something.
     </span>
   </div>
-  <button class="btn btn-default" ng-disabled="todoForm.$invalid">Add</button>
+  <button class="btn btn-warning" ng-disabled="todoForm.$invalid">Add</button>
 </form>
 <hr>
 <div class="list-group">
